@@ -12,7 +12,7 @@ move_sound = pygame.mixer.Sound('sounds/move.wav')
 lose_sound = pygame.mixer.Sound('sounds/lose_sound.wav')
 
 # Configuración de la pantalla
-WIDTH, HEIGHT = 600, 800  # Aumentar la altura para los botones
+WIDTH, HEIGHT = 500, 700  # Aumentar la altura para los botones
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Vector Quest")
 clock = pygame.time.Clock()
